@@ -50,6 +50,10 @@ footer{
     color: white;
 }
 
+.navbar a:hover{
+    text-decoration: underline;
+}
+
 .link{
     width:calc((100% / 3) * 2);
 }
@@ -276,6 +280,10 @@ footer{
     color: white;
     line-height: 3em;
     font-weight: bold;
+}
+
+.column a:hover{
+    text-decoration: underline;
 }
 
 .boxedFt hr{
