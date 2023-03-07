@@ -199,9 +199,40 @@ footer{
 }
  
 .single{
-    width: 18rem;
+    max-width: 18rem;
     min-height: 36rem;
-    background-color: #F08080;
+    flex-direction: row;
+    padding: 3rem;
+}
+
+.single h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color:#6f85d3;
+    font-weight: 900;
+}
+
+.single span{
+   font-size: 12px;
+   font-weight: 700;
+   color: white;
+}
+
+.linguage img{
+    max-width: 1.5em;
+    vertical-align: bottom;
+}
+
+.symbols{
+    color: white;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.symbols i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .multiple{
