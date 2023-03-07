@@ -34,11 +34,8 @@ footer{
     padding: 1rem;
 }
 
-.border{
-    border: 2px dashed black;
-}
 
-.flexbox{
+.flex{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,34 +47,41 @@ footer{
     header
 **************/
 
-.flexbox.logo{
+.flex.logo{
     justify-content: flex-start;
 }
 
-.flexbox.link{
-    justify-content: center;
+.flex.link{
+    justify-content: space-evenly;
 }
 
-.flexbox.login {
+.flex.login {
     justify-content: flex-end;
 }
 
-.boxedNav{
+.navbar{
     padding: 0.5em;
     min-height: 3rem;
     width: calc(100% / 3);
 }
 
-.boxedNav a{
+.navbar a{
     text-decoration: none;
-    color: black;
-    margin-left: 0.5em;
+    color: white;
 }
 
 .link{
     width:calc((100% / 3) * 2);
 }
 
+.login > button{
+    padding: 0.5em;
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 13px;
+    cursor: pointer;
+}
 .boxedContent{
     padding: 3rem;
 }
@@ -93,7 +97,7 @@ footer{
     main
 **************/
 
-.boxedMain > .flexbox{
+.boxedMain > .flex{
     justify-content: center;
 }
 .boxedMain{
@@ -114,7 +118,7 @@ footer{
 }
 
 
-.grey > .boxedMain > .flexbox{
+.grey > .boxedMain > .flex{
     flex-direction: row-reverse;
 }
 
@@ -134,7 +138,7 @@ footer{
     padding: 2rem 3rem 1rem 3rem;
 }
 
-.boxedFt >.flexbox {
+.boxedFt >.flex {
     justify-content: center;
 }
  
@@ -151,7 +155,6 @@ footer{
 }
 
 .column{
-    border: 2px dashed white;
     min-height: 36rem;
     width: calc(100% / 4);   
 }
@@ -163,11 +166,11 @@ footer hr{
 
 .ftButton{
     background-color: #7FFFD4;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     padding-bottom: 1.5rem; 
 }
 
-.ftButton.flexbox{
+.ftButton.flex{
     justify-content: space-between;
     align-items: center;
 }
