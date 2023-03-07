@@ -2,21 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
 header{
-    background-color: #ADD8E6;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
-nav{
-    background-color: #DAA520;
-}
-
-header > section{
-    background-color: #00008B;
-}
 
 
 main .grey{
@@ -59,6 +53,7 @@ footer{
     justify-content: flex-end;
 }
 
+
 .navbar{
     padding: 0.5em;
     min-height: 3rem;
@@ -76,23 +71,53 @@ footer{
 
 .login > button{
     padding: 0.5em;
-    background-color: white;
     color: black;
     border: 0;
     border-radius: 13px;
     cursor: pointer;
+    font-weight: 400;
 }
+
 .boxedContent{
     padding: 3rem;
 }
 
 .content{
+    color: white;
+    padding: 3rem;
     max-width: 57rem;
     min-height: 25rem;
-    background-color: #EE82EE;
     margin: 0 auto;
+   text-align: center;
 }
 
+.content h1{
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.buttonH{
+    margin-top: 30px;
+}
+
+.buttonH button{
+    font-weight: 600;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+#buttonDark{
+    background-color: #23272a;
+    color: white;
+}
 /*************
     main
 **************/
@@ -175,7 +200,7 @@ footer hr{
     align-items: center;
 }
 
-.ftLogo, .button{
+.ftLogo, .btf{
     background-color:#FFB6C1 ;
     padding: 0.5rem;
 }
