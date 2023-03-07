@@ -216,6 +216,7 @@ footer{
    font-size: 12px;
    font-weight: 700;
    color: white;
+   cursor: pointer;
 }
 
 .linguage img{
@@ -233,29 +234,39 @@ footer{
     margin-top: 10px;
     margin-left: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .multiple{
     min-height: 36rem;
-    width: 51rem;
-    background-color: #20B2AA;  
+    width: 51rem; 
 }
 
 .column{
+    padding-top: 3rem;
     min-height: 36rem;
     width: calc(100% / 4);   
 }
-
-footer hr{
-    color: #D3D3D3;
-    margin-top: 2rem;
+.column > ul li{
+    list-style: none;
 }
 
-.ftButton{
-    background-color: #7FFFD4;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem; 
+.column > ul #bg-purple{
+    color: #6f85d3;
+    font-weight: bold;
 }
+
+.column a{
+    text-decoration: none;
+    color: white;
+    line-height: 3em;
+    font-weight: bold;
+}
+
+.boxedFt hr{
+    border-color: #6f85d3;
+}
+
 
 .ftButton.flex{
     justify-content: space-between;
@@ -263,7 +274,15 @@ footer hr{
 }
 
 .ftLogo, .btf{
-    background-color:#FFB6C1 ;
     padding: 0.5rem;
 }
 
+.btf button{
+        padding: 0.5em;
+        color: white;
+        background-color: #8ea1e1;
+        border: 0;
+        border-radius: 13px;
+        cursor: pointer;
+        font-weight: 400;
+}
