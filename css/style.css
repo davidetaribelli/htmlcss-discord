@@ -270,7 +270,7 @@ footer{
     list-style: none;
 }
 
-.column > ul #bg-purple{
+.column > ul .bg-purple{
     color: #6f85d3;
     font-weight: bold;
 }
